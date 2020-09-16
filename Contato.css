@@ -1,0 +1,84 @@
+.contato{
+
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #ecf0f1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contato {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 450px;
+    background: #000 url(capa.png) center no-repeat;
+    background-size: cover;
+    text-align: center;
+
+    text-transform: uppercase;
+}
+
+.contato h1 {
+    font-size: 72px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.contato .separador {
+    width: 350px;
+    height: 5px;
+    background: rgb(255, 255, 255);
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+.contato h3 {
+    color: #FFF;
+    font-weight: lighter;
+    font-size: 32px;
+    text-transform: inherit;
+}
+
+.buttoncontato1 {
+    padding: 10px 25px;
+    font-size: 18px;
+    background: #398143;
+    border-radius: 5px;
+    border: solid 2px #fff;
+    color: #fff;
+    cursor: pointer;
+    transition: all linear 0.2s;
+}
+.contato button:hover {
+    background: #fff;
+    color: #000;
+}
+.contato button:focus {
+    background: #fff;
+    color: #000;
+    outline: none;
+}
+
+.container {
+    max-width: 2000px;
+    margin: 0 auto!important;
+    padding: 30px;
+}
+.buttoncontato2 {
+    padding: 10px 25px;
+    font-size: 18px;
+    background: #fd4b4b;
+    border-radius: 5px;
+    border: solid 2px #fff;
+    color: #fff;
+    cursor: pointer;
+    transition: all linear 0.2s;
+}
